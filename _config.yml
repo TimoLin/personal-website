@@ -1,4 +1,4 @@
-layout: stacked
+layout: sidebar
 style: dark
 
 plugins:
@@ -32,3 +32,11 @@ topics:
 
   - name: LaTex
     web_url: https://github.com/topics/latex
+
+repositories:
+  - NUAA-Beamer
+  - SpotifyLyrics
+  - indentLine
+  - pyPlot3d
+  - ssr-qrgen
+  - ssgo_arukas
