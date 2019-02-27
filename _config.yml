@@ -18,20 +18,27 @@ defaults:
 topics:
   - name: CFD
     web_url: https://github.com/topics/cfd
+    image_url: https://i.imgur.com/C1YVeQJ.png
 
-  - name: Turbulent Combustion
-    web_url: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=turbulent+combustion&btnG=  
+  - name: Turbulent Spray Combustion
+    web_url: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=turbulent+spray+combustion&btnG=  
+    image_url: https://i.imgur.com/vOS7lZH.png
 
-  - name: Two-Phase Reacting Flows
+  - name: Large Eddy Simulation
+    web_url: https://www.sciencedirect.com/topics/earth-and-planetary-sciences/large-eddy-simulation
+    image_url: https://i.imgur.com/Gfi86oP.png
     
   - name: Fortran
     web_url: https://github.com/topics/fortran
+    image_url: https://cdn.rawgit.com/file-icons/source/master/svg/Fortran.svg
 
   - name: Python
     web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
 
   - name: LaTex
     web_url: https://github.com/topics/latex
+    image_url: https://raw.githubusercontent.com/github/explore/8301424c613f4cd048e8a7f3e3c81ea20321f3ed/topics/latex/latex.png
 
 repositories:
   - NUAA-Beamer
