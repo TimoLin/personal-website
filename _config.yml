@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -16,12 +16,19 @@ defaults:
       layout: "post"
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: CFD
+    web_url: https://github.com/topics/cfd
 
-  - name: Web design
+  - name: Turbulent Combustion
+    web_url: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=turbulent+combustion&btnG=  
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Two-Phase Reacting Flows
+    
+  - name: Fortran
+    web_url: https://github.com/topics/fortran
+
+  - name: Python
+    web_url: https://github.com/topics/python
+
+  - name: LaTex
+    web_url: https://github.com/topics/latex
