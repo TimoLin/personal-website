@@ -17,13 +17,21 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
+  sort_by: pinned
   # sort_by options:
   #   - pushed
   #   - stars
+  #   - pinned
+    pinned_repos:
+            - NUAA-Beamer
+            - SpotifyLyrics
+            - indentLine
+            - pyPlot3d
+            - ssr-qrgen
+            - ssgo_arukas
   limit: 6
   exclude:
-    forks: True
+    forks: false
     projects:
     # - repo-name
 

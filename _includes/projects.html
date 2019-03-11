@@ -3,15 +3,22 @@
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
-  {% else %}
+  {% else if site.projects.sort_by == 'pushed %}
     {% assign sort_order = 'pushed_at' %}
+  {% else %}
+    {% assign sort_order = 'pinned' %}
   {% endif %}
 
-  {% if site.projects.exclude.forks %}
-    {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
+  {% if site.projects.sort_by == 'pinned' %}
+    {% assign filter_repos = site.projects.sort_by.pinned_repos %}
   {% else %}
-    {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
+    {% if site.projects.exclude.forks %}
+      {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
+    {% else %}
+      {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
+    {% endif %}
   {% endif %}
+  
 
   {% for repository in filtered_repos | limit: site.projects.limit %}
     {% unless site.projects.exclude.projects contains repository.name %}
