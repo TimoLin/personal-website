@@ -3,7 +3,7 @@
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
-  {% else if site.projects.sort_by == 'pushed %}
+  {% else if site.projects.sort_by == 'pushed' %}
     {% assign sort_order = 'pushed_at' %}
   {% else %}
     {% assign sort_order = 'pinned' %}
