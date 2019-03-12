@@ -22,7 +22,7 @@ projects:
   #   - pushed
   #   - stars
   #   - pinned
-    pinned_repos:
+  pinned_repos:
             - NUAA-Beamer
             - SpotifyLyrics
             - indentLine
