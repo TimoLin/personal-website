@@ -23,12 +23,12 @@ projects:
   #   - stars
   #   - pinned
   pinned_repos:
-            - NUAA-Beamer
-            - SpotifyLyrics
-            - indentLine
-            - pyPlot3d
-            - ssr-qrgen
-            - ssgo_arukas
+    - NUAA-Beamer
+    - SpotifyLyrics
+    - indentLine
+    - pyPlot3d
+    - ssr-qrgen
+    - ssgo_arukas
   limit: 6
   exclude:
     forks: false
