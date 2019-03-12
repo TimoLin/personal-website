@@ -10,7 +10,7 @@
   {% endif %}
 
   {% if site.projects.sort_by == 'pinned' %}
-    {% assign filter_repos = site.projects.sort_by.pinned_repos %}
+    {% assign filter_repos = site.projects.pinned_repos %}
   {% else %}
     {% if site.projects.exclude.forks %}
       {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
