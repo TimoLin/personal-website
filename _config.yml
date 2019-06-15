@@ -31,7 +31,8 @@ projects:
     - ssgo_arukas
   limit: 6
   exclude:
-    forks: false
+    archived: false
+    forks: true
     projects:
     # - repo-name
 
@@ -40,8 +41,11 @@ social_media:
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
   # linkedin: your_username
-  # medium: @your_username
+  # mastodon: your_username
+  # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
   twitter: ztnuaa
@@ -50,6 +54,7 @@ social_media:
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
+  # youtube: your_username
 
 topics:
   - name: CFD
