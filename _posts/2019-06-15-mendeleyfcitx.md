@@ -8,7 +8,7 @@ tags:
   - Fcitx
 ---
 
-# Locate qt fcitx lib
+## 1.Locate qt fcitx lib
 ```shell
 locate libfcitxplatforminputcontextplugin.so
 ```
@@ -17,15 +17,15 @@ Typically, the system default one is:
 /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so
 ```
 
-# Copy it to Mendeley folder
+## 2.Copy it to Mendeley folder
 ```shell
 cd /opt/mendeleydesktop/plugins/qt/plugins/platforminputcontexts
 sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so ./
 ```
 
-# Restart Mendeley and try to input Chinese
+## 3.Restart Mendeley and try to input Chinese
 
-# Reference & Useful materials
+## Reference & Useful materials
 
 - [https://www.findhao.net/easycoding/2287](https://www.findhao.net/easycoding/2287)
 - [https://github.com/JackieMium/my_blog/issues/12)](https://github.com/JackieMium/my_blog/issues/12)
